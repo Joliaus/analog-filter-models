@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<session name="" tempo="120.0" notes="" beatsPerBar="4" beatDivisor="2">
+  <graphs active="0">
+    <node type="graph" uuid="dffacf2de5d145a2ae487ecd1f99b881" name="Graph"
+          bypass="0" persistent="1" renderMode="single" keyStart="0" keyEnd="127"
+          transpose="0" delayCompensation="0">
+      <nodes>
+        <node id="5" type="plugin" format="Internal" identifier="audio.output"
+              name="ASIO4ALL v2" relativeX="0.2619738751814223" relativeY="0.7028885832187071"
+              pluginIdentifierString="Internal--83a94619-0" uuid="ab7918eb97d94e64834f97264e701838"
+              bypass="0" persistent="1" renderMode="single" keyStart="0" keyEnd="127"
+              transpose="0" delayCompensation="0.0" x="301.0" y="488.0" program="0"
+              midiProgram="0" globalMidiPrograms="0" midiProgramsEnabled="0"
+              mute="0" muteInput="0" midiProgramsState="" oversamplingFactor="1"
+              enabled="1">
+          <nodes/>
+          <ui>
+            <block/>
+          </ui>
+          <ports>
+            <port index="0" channel="0" type="audio" name="PRO X 1" symbol="audio_in_1"
+                  flow="input"/>
+            <port index="1" channel="1" type="audio" name="PRO X 2" symbol="audio_in_2"
+                  flow="input"/>
+            <port index="2" channel="2" type="audio" name="PRO X 3" symbol="audio_in_3"
+                  flow="input"/>
+            <port index="3" channel="3" type="audio" name="PRO X 4" symbol="audio_in_4"
+                  flow="input"/>
+            <port index="4" channel="4" type="audio" name="PRO X 5" symbol="audio_in_5"
+                  flow="input"/>
+            <port index="5" channel="5" type="audio" name="PRO X 6" symbol="audio_in_6"
+                  flow="input"/>
+            <port index="6" channel="6" type="audio" name="PRO X 7" symbol="audio_in_7"
+                  flow="input"/>
+            <port index="7" channel="7" type="audio" name="PRO X 8" symbol="audio_in_8"
+                  flow="input"/>
+          </ports>
+        </node>
+        <node id="7" type="plugin" format="Element" identifier="element.audioFilePlayer"
+              name="Audio File Player" relativeX="0.2597968069666183" relativeY="0.3686382393397524"
+              pluginIdentifierString="Element-Audio File Player-53a71901-3e8"
+              uuid="504cb9f9a4af462c85f14e646aff1fd1" bypass="0" persistent="1"
+              renderMode="single" keyStart="0" keyEnd="127.0" transpose="0"
+              delayCompensation="0.0" x="298.0" y="245.0" windowX="1004" windowY="173"
+              windowVisible="0" state="222.yQWXzUF.ATPX0QVZuYTZrUF.APYACoCWUMWYxMGWp8FZg4FWO4VYDIWZ1UFHs.RQSUzSbQzaiUWak4FcywUQSUzSbUDMkw0TzE1YkwEUxElcgkFabM0a0I2XkMGWsU2boMlbgQVXx0xY0kFcgIWKhE1by0xbg0FbrU1bbcTcoQWXxABSu8Fbyw0Qk4FcrUFHRklYlMGWGUlazwVYeIUZlY1WA4xcgYG.vwVX4klamAP.ALvbrElckAP.AL.au8Fb.DP.BzVZjk1TzElbzMEcuA2Pu4Fco4VckAP.AL.."
+              programState="222.yQWXzUF.ATPX0QVZuYTZrUF.APYACoCWUMWYxMGWp8FZg4FWO4VYDIWZ1UFHs.RQSUzSbQzaiUWak4FcywUQSUzSbUDMkw0TzE1YkwEUxElcgkFabM0a0I2XkMGWsU2boMlbgQVXx0xY0kFcgIWKhE1by0xbg0FbrU1bbcTcoQWXxABSu8Fbyw0Qk4FcrUFHRklYlMGWGUlazwVYeIUZlY1WA4xcgYG.vwVX4klamAP.ALvbrElckAP.AL.au8Fb.DP.BzVZjk1TzElbzMEcuA2Pu4Fco4VckAP.AL.."
+              program="0" midiProgram="0" globalMidiPrograms="0" midiProgramsEnabled="0"
+              mute="0" muteInput="0" midiProgramsState="52.3o8Jnn7SunDysXFXfQFK.BaFXjY3rXkQF.BxKwbSkAFYhUFJtjDKAHKVX0.8XfA.h2YCaB"
+              oversamplingFactor="1" enabled="1">
+          <nodes/>
+          <ui>
+            <block/>
+          </ui>
+          <ports>
+            <port index="0" channel="0" type="audio" name="Main 1" symbol="audio_out_1"
+                  flow="output"/>
+            <port index="1" channel="1" type="audio" name="Main 2" symbol="audio_out_2"
+                  flow="output"/>
+            <port index="2" channel="0" type="control" name="Playing" symbol="control_0"
+                  flow="input"/>
+            <port index="3" channel="1" type="control" name="Slave" symbol="control_1"
+                  flow="input"/>
+            <port index="4" channel="2" type="control" name="Volume" symbol="control_2"
+                  flow="input"/>
+            <port index="5" channel="3" type="control" name="Loop" symbol="control_3"
+                  flow="input"/>
+            <port index="6" channel="0" type="midi" name="MIDI In" symbol="element_midi_input"
+                  flow="input"/>
+          </ports>
+        </node>
+        <node id="8" type="plugin" format="VST3" identifier="C:\Program Files\Common Files\VST3\LiveSPICE\LiveSPICEVstBridge.vst3"
+              name="LiveSPICEVst" relativeX="0.4042089985486212" relativeY="0.5226960110041265"
+              pluginIdentifierString="VST3-LiveSPICEVst-9220fdc6-9818b3bc"
+              uuid="cf88e9a6528449d3a90c3b61c3a50ad3" bypass="0" persistent="1"
+              renderMode="single" keyStart="0" keyEnd="127.0" transpose="0"
+              delayCompensation="0.0" x="497.0" y="357.0" windowX="540" windowY="117"
+              windowVisible="0" state="1856.VMjLgbyA...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DyLvbiK2byPjM2cFgTLUwlX4sVLgQGLogzcyHDSn4hTYQWSwDlZqwVXsASZHASTsk0blkFRqLyTCojcoUUdQcDU3gSLYgWQVEFTEwlXmAiUYoWUrIVdAIDYycGagk2aCQVdqY0SnYlQioWPs4Tc2f2XxLVaKISSosTcIISV0gzPLYGQ4sDVvPzTS0jQZsFLVg0bpwVX4E0UXQWSVkEZtHDYycGagk2aCQVdQY0SnYlQioWPs4Tc2f2XxLVaKISSosTcIISV0gzPLYGQ4sDVvPzTS0jQZsFLVgEZyL0PJ4hPHcCSvfkaUYUXmE0UZkVPUgkdmw1SC81PWUUSWkEdMczUvgiQZcFMFc0SzXUVDkzUZESUFgzbtHUTSUkdSIVT5EVZUcUXqQiQik2cUE0TUo2ThUEQMs1cvPkdEESVqcWQUgWQrM1YqYTXhkEUZk1YVo0ZIIiXhkEUZIWTsI1ZMczUSE0UXoWUVsTLEwlXuUDaXIWUFgDaqYTX5UEahk2cUAEcQYUV3EkLgQWP3QELAcUV3EjPUUGMVkkXEoVXpUEahoGNrElYLU0X1UEahYFTvDFcUYDRrslQgoWUrIFcLICVtc1QOUGSvfkaUYUXmE0UZkVPUgkdmw1SM4lKHYlc4MULUwlXSUjUgY2cVkUNHMzS0ciZisVRxP0YvXjXxUEaO0jatfjY1MkT5UEahcVTWoUczDiX4X1POUmZDM1ZIcEV5sVLgQWSs8TSt4BRlYWdPUGMFMFd3XTXPUDahcFLVkkdUwlX4QyTCojKBgjYtHzSV0TQUAURxDVaIcEVy0jdgQWTsIVc2YDUmkzUXMWUFM1ZI01SM4lKHYlKBgjYtHzSNUjUgsFMCQ0c1k2RNUjUgsFMSMjRtHDRl4hPHYlcoU0Y2Y0XqQyPLQGUC8TcXUEVxU0UYkidlIjYtHDRlYWdKYUSEUETIISXskzUXMWS5EFcQ0lX0cmQTcVRWg0bUYzXqkTaO0jatfjYtHDR2fELTQUPqIVciwlXmASLPUGMFMFd3XTXPUDahcFLVkkdUwlX4nmYBYlKBgjYtHDR2LCUXMWUr8DTIMzS0MCUXMWUr8TSt4BRl4hPHYlKB8jUEYTXvTEaOY2LR0zM2fVUmcmUisFMSMjRtHDRl4hPOUGVvPEUAslX0MFahcFLw.UczXzX3giQgAUQrI1YvXUV5UEahkidlIjYtHDRlYWZUMUTEQEd3DSV3UjUgMDNrEldIISXxETUXgWQVE1ZQcUV3QyTCojKBgjYtHDRlYWZScFLVkUNLUES2bCZScFLVkUN5YlPl4hPHYlKBgzMXUEVxU0UYkCQC8TcXUEVxU0UYkidlIjYtHDRlYWdKYUSEUETIISXskzUXMWS5EFcQ0lX0cmQTcVRWg0bUYzXqkTaO0jatfjYtHDR2fELTQUPqIVciwlXmASLPUGMFMFd3XTXPUDahcFLVkkdUwlX4nmYBYlKBgjYtHDR2LCUXMWUr8DTMMzS0MCUXMWUr8TSt4BRl4hPHYlKB8jUEYTXvTEaOY2LR0zM2fVUmcmUisFMSMjRtHDRl4hPOUGVvPEUAslX0MFahcFLw.UczXzX3giQgAUQrI1YvXUV5UEahkidlIjYtHDRlYWZUMUTEQEd3DSV3UjUgMDNrEldIISXxETUXgWQVE1ZQcUV3QyTCojKBgjYtHDRlYWZScFLVkUNtTTS2bCZScFLVkUN5YlPl4hPHYlKBgzMXUEVxU0UYkiKosDL1k2RVUjQgASUr8TSt4BRl4hPHcyMnU0TQUDU3gSLYgWQVE1P3vVX5kjLgIWPUgEdEYUXqE0UYgGMSMjRtHDRl4hPOYUSEUETIISXskzUXMWS5EFcQ0lX0cmQTcVRWg0bUYzXqkTaO0jatfjYtHDRl4hPO4TQVE1ZzLDUvXWdK4TQVE1ZzL0PJ4hPHYlKBgjY1kVUmcmUisFMCwDcTMzS0gUUXIWUWkUN5YlPl4hPHYlc4sjUMUTUPkjLg0VRWg0bMoWXzEUahU2cFQ0YIcEVyUkQisVRs8TSt4BRl4hPHcCVvPEUAslX0MFahcFLw.UczXzX3giQgAUQrI1YvXUV5UEahkidlIjYtHDRl4hPHcyLTg0bUw1SPk0POU2LTg0bUw1SM4lKHYlKBgjYtHzSVUjQgASUr8jcyHUS2bCZUc1cVM1ZzL0PJ4hPHYlKB8TcXACUTEzZhU2XrI1YvDCT0QiQigGNFEFTEwlXmAiUYoWUrIVN5YlPl4hPOUGS5EFcQ0lX0cmQTcVRWg0bUYzXqkjLhkidlIzM2fVU4E0QTgGNwjEdEYUXPUDahcFLVkkdUwlX4QyP77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+              program="0" midiProgram="0" globalMidiPrograms="0" midiProgramsEnabled="0"
+              mute="0" muteInput="0" midiProgramsState="52.3o8Jnn7SunDysXFXfQFK.BaFXjY3rXkQF.BxKwbSkAFYhUFJtjDKAHKVX0.8XfA.h2YCaB"
+              oversamplingFactor="1" enabled="1" windowOnTop="1">
+          <nodes/>
+          <ui>
+            <block/>
+          </ui>
+          <ports>
+            <port index="0" channel="0" type="audio" name=" 1" symbol="audio_in_1"
+                  flow="input"/>
+            <port index="1" channel="0" type="audio" name=" 1" symbol="audio_out_1"
+                  flow="output"/>
+            <port index="2" channel="0" type="midi" name="MIDI" symbol="midi_in_0"
+                  flow="input"/>
+            <port index="3" channel="0" type="midi" name="MIDI" symbol="midi_out_0"
+                  flow="output"/>
+          </ports>
+        </node>
+      </nodes>
+      <ports/>
+      <ui>
+        <GraphEditorView width="1378" height="727"/>
+      </ui>
+      <arcs>
+        <arc sourceNode="7" sourcePort="0" destNode="8" destPort="0"/>
+        <arc sourceNode="8" sourcePort="1" destNode="5" destPort="2"/>
+      </arcs>
+    </node>
+  </graphs>
+  <controllers/>
+  <maps/>
+  <ui content="129.3ocAAGrCBBBF..FNzqiWpYdsYvBxUVyHfsNXSRjH9aEKv29999F6iFDFe.FLjgoH7oFBQSHJlLID91hxxhkPEO51tmcgJcv57QxiNdRmA0HAzJqW89jPZYBuMwzvFV+8ydkLSeE.pSxoysomNUVckU2j2M2T7a0XUaGB8Gvkzqht"/>
+</session>
