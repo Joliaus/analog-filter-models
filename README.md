@@ -2,9 +2,12 @@
 
 ## Project Overview
 
-This project focuses on the design, simulation, and analysis of analog filters used in synthesizers. These filters are crucial components in sound synthesis, where they modify the frequency and amplitude of audio signals to create different sound textures, such as basses, highs, and special effects. Despite their importance, there is a lack of comprehensive tools for designing and simulating analog filters specifically for synthesizers. This project aims to address this gap by creating digital models of these filters, which can be simulated and further analyzed for potential new designs.
+This project, completed during a technical internship at Maynooth University, Ireland, focuses on the design, simulation, and analysis of analog filters used in synthesizers. By creating digital models of famous analog filters, this project helps musicians and engineers explore new sound designs and analyze existing ones using simulation tools like MATLAB, LTspice, and LiveSPICE.
 
-The primary objective is to make analog filter models accessible for musicians and electronic engineers, facilitating the creation of new sound experiences through synthesizers.
+Throughout the project, three types of filters were studied:
+- **Linear Filters**: Filters with a linear frequency response, such as low-pass, high-pass, and bandpass filters.
+- **Non-linear Filters**: Filters that introduce non-linearities, such as the Moog Ladder Filter and Buchla Lowpass Gate.
+- **State-variable Filters**: Filters that can simultaneously control multiple filter types (low-pass, high-pass, and bandpass) with a single circuit.
 
 ## Objectives
 
