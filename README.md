@@ -65,7 +65,7 @@ To set up the necessary environment for using the filter models in this project,
 5. **Clone the GitHub Repository**:
    - Clone this repository to your local machine:
      ```bash
-     git clone https://github.com/your-username/analog-filter-models.git
+     git clone https://github.com/your-username/analog-synths-filter-models.git
      ```
    - This will create a local copy of the repository on your computer.
 
