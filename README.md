@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project, completed during a technical internship at Maynooth University, Ireland, focuses on the design, simulation, and analysis of analog filters used in synthesizers. By creating digital models of famous analog filters, this project helps musicians and engineers explore new sound designs and analyze existing ones using simulation tools like MATLAB, LTspice, and LiveSPICE.
+This project, completed during my technical internship at Maynooth University, Ireland, focuses on the design, simulation, and analysis of analog filters used in synthesizers. By creating digital models of famous analog filters, this project tends to help musicians and engineers explore new sound designs and analyze existing ones using simulation tools like MATLAB, LTspice, and LiveSPICE.
 
 Throughout the project, three types of filters were studied:
 - **Linear Filters**: Filters with a linear frequency response, such as low-pass, high-pass, and bandpass filters.
