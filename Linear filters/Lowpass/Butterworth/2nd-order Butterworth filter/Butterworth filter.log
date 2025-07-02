@@ -1,0 +1,66 @@
+Circuit: * C:\Users\johan\OneDrive - ESEO\Documents\ESEO\E4e\Stage\Travail\Fichiers\Filtres\Linear filters\Butterworth\Butterworth filter\Butterworth filter.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Gmin = 100
+vernier = 0.5
+vernier = 0.25
+Gmin = 34.2672
+vernier = 0.125
+vernier = 0.166667
+Gmin = 25.994
+vernier = 0.222222
+vernier = 0.296296
+Gmin = 15.4798
+vernier = 0.395061
+Gmin = 6.76191
+vernier = 0.526748
+vernier = 0.702331
+Gmin = 1.80321
+vernier = 0.351165
+vernier = 0.175583
+vernier = 0.0877914
+vernier = 0.0438957
+Gmin = 1.76428
+vernier = 0.0219478
+vernier = 0.0292638
+vernier = 0.0146319
+Gmin = 1.70419
+vernier = 0.00731595
+vernier = 0.00365797
+vernier = 0.00182899
+Gmin = 1.69643
+vernier = 0.000914493
+vernier = 0.00121932
+Gmin = 1.69294
+vernier = 0.000609662
+vernier = 0.000457246
+Gmin = 1.69165
+vernier = 0.000609662
+vernier = 0.000457246
+Gmin = 1.68985
+vernier = 0.000609662
+vernier = 0.000457246
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Tue Oct 17 14:21:39 2023
+Total elapsed time: 0.165 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 2469
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 31
+fillins = 83
+solver = Normal
+Avg thread counts: 1.6/0.0/11.9/1.4
+Matrix Compiler1:     273 opcodes
+Matrix Compiler2: 3.98 KB object code size  0.8/0.9/[0.7]
+
